@@ -168,4 +168,5 @@ The first line (100 euros proposal, 10 KM away) suggests accepting the proposal 
 ### Improvement of Code
 1. **Error Handling**: A more robust error-handling system is required.
 2. **Unit Tests**: More detailed unit tests should be implemented.
-
+3. **Logging**: Using a logger system instead of a simple verbose mode.
+4. **Monitoring**: Throwing an alert when the quality of the results fell under a certain threshold (e.g. precision <= 0.7).

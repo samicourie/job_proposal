@@ -1,7 +1,7 @@
 import argparse
 import pandas as pd
 import numpy as np
-from core.model import Classifier  # Assuming the class code is saved in a file named classifier.py
+from core.model import Classifier  # Assuming the class code is saved in a file named model.py
 
 
 if __name__ == "__main__":

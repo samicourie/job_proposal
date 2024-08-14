@@ -167,10 +167,11 @@ La première ligne (proposition de 100 euros, 10 KM de distance) suggère d'acce
 ### Amélioration des Résultats
 1. **Déséquilibre des Données** : Les données sont déséquilibrées. Des techniques d'équilibrage telles que les k-medoids pourraient réduire le nombre de travaux "accepts" et équilibrer les données. Cependant, il faut faire attention à ne pas perdre d'informations statistiques importantes.
     
-2. **Additional Features**: En visualisant les données (voir **figure_1.png** et **figure_2.png**), nous remarquons un certain chevauchement dans les décisions d'acceptation/refus en fonction de la distance et du prix. L'ajout de features comme le jour et l'heure du travail pourrait améliorer les résultats. Par exemple, les professionnels ont-ils accepté des travaux le week-end, après 18h, ou pendant les heures de pointe ?
+2. **Additional Features** : En visualisant les données (voir **figure_1.png** et **figure_2.png**), nous remarquons un certain chevauchement dans les décisions d'acceptation/refus en fonction de la distance et du prix. L'ajout de features comme le jour et l'heure du travail pourrait améliorer les résultats. Par exemple, les professionnels ont-ils accepté des travaux le week-end, après 18h, ou pendant les heures de pointe ?
 
 
 ### Amélioration du Code
-1. **Gestion des Erreurs**: Un système de gestion des erreurs plus robuste est nécessaire.
-2. **Tests Unitaires**: Des tests unitaires plus détaillés devraient être implémentés.
-
+1. **Gestion des Erreurs** : Un système de gestion des erreurs plus robuste est nécessaire.
+2. **Tests Unitaires** : Des tests unitaires plus détaillés devraient être implémentés.
+3. **Logging** : Utiliser un système de '*logging*' au lieu d'un simple mode '*verbose*'.
+4. **Monitoring** : Lancer une alerte lorsque la qualité des résultats tombe en dessous d'un certain seuil (par exemple, précision <= 0,7).
