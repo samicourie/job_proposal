@@ -1,13 +1,17 @@
 
-## WeCaSa Data Scientist Test
-The goal of the this is to predict whether a professional will accept a new job proposal based on the distance and the price of the proposal.
+## Job Proposal Predictor
+The goal of this project is to predict whether a professional will accept a new job proposal based on the distance and the price of the proposal.
 
 The solution is split into two parties:
 1. A jupyter notebook where I show the general approach on how to solve the problem.
 2. Structured code that mimics a production scenario, allowing us to train and test the model separately.
 
+### Problem
+The goal is to develop a predictive model that only considers the variables of distance and price. For a given professional, based on the history of proposals they have accepted or declined, the aim is to predict whether they will accept a future proposal at a given distance and price.
+
+
 ### Code Requirements
-Using python 3.12.3
+Using python 3.12.3, you can install separately:
 ```
 pip install pandas==2.2.2
 pip install numpy==1.26.4
@@ -15,6 +19,11 @@ pip install matplotlib==3.9.1
 pip install seaborn==0.13.2
 pip install geopy==2.4.1
 pip install scikit-learn==1.4.2
+```
+
+or all together:
+```
+pip install -r requirements.txt
 ```
 
 ### Jupyter Notebook Code

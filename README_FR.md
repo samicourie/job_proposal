@@ -1,5 +1,5 @@
 
-## Test de Data Scientist WeCaSa
+## Prédicteur d'acceptation de proposition d'emploi
 
 L'objectif de ce test est de prédire si un professionnel acceptera une nouvelle proposition de travail en fonction de la distance et du prix de la proposition.
 
@@ -7,8 +7,13 @@ La solution est divisée en deux parties :
     1. Un notebook Jupyter où je montre l'approche générale pour résoudre le problème.
     2. Un code structuré qui simule un scénario de production, permettant d'entraîner et de tester le modèle séparément.
 
+### Problème:
+Le but est de développer un modèle prédictif qui ne considère que les variables distance et prix.
+Pour un professionnel donné, grâce à l'historique des propositions qu'il a acceptées et refusées, il
+s'agit de prédire s'il va accepter une future proposition à une distance et un prix donné.
+
 ### Code Requirements
-En utilisant de Python 3.12.3
+En utilisant de Python 3.12.3, on peut telecharger chaque librarie seule:
 ```
 pip install pandas==2.2.2
 pip install numpy==1.26.4
@@ -16,6 +21,10 @@ pip install matplotlib==3.9.1
 pip install seaborn==0.13.2
 pip install geopy==2.4.1
 pip install scikit-learn==1.4.2
+```
+ou toutes ensemble:
+```
+pip install -r requirements.txt
 ```
 
 ### Code du Notebook Jupyter
